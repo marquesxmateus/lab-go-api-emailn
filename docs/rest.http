@@ -1,0 +1,24 @@
+POST http://localhost:3000/campaigns
+
+{
+    "name": "Name1",
+    "content": "Content 1",
+    "emails": ["teste@teste.com.br", "teste@teste.com.br", "teste@teste.com.br"]
+}
+
+#### 
+
+GET http://localhost:3000/campaigns
+
+####
+
+GET http://localhost:3000/campaigns/ciac70qjw175urf09hcu0
+
+
+####
+
+PATCH  http://localhost:3000/campaigns/cancel/ciaat82j175qbj343s90
+
+####
+
+DELETE http://localhost:3000/campaigns/ciac35ij175te98681vg
